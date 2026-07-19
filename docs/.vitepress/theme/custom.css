@@ -273,3 +273,287 @@
   font-size: 0.85em;
   font-family: var(--vp-font-family-mono);
 }
+
+/* ==========================================================================
+   首页新增组件：section-intro / group-footer / progress-card
+   以及章节卡片的 done / todo 两种状态
+   ========================================================================== */
+
+.section-intro {
+  background-color: var(--vp-c-brand-soft);
+  border-left: 4px solid var(--vp-c-brand-1);
+  border-radius: 0 10px 10px 0;
+  padding: 12px 18px;
+  color: var(--vp-c-text-2);
+  line-height: 1.75;
+  margin: -6px 0 28px 0;
+}
+
+.section-intro a {
+  color: var(--vp-c-brand-1);
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px dashed var(--vp-c-brand-1);
+}
+
+.section-intro code {
+  font-size: 0.85em;
+  background-color: rgba(79, 110, 247, 0.1);
+  padding: 1px 6px;
+  border-radius: 4px;
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
+}
+
+.group-footer {
+  margin: 14px 2px 0 2px;
+  font-size: 0.9rem;
+  color: var(--vp-c-text-3);
+}
+
+.group-footer a {
+  color: var(--vp-c-brand-1);
+  font-weight: 500;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.group-footer a:hover {
+  opacity: 0.75;
+  text-decoration: underline;
+}
+
+/* ———————————————— 章节卡片 · 已完成（✅）样式 ———————————————— */
+
+.chapter-card.done {
+  border-left: 4px solid #16a34a;
+  background-color: var(--vp-c-bg-soft);
+  position: relative;
+}
+
+.chapter-card.done::before {
+  content: '✓ 已完成';
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #16a34a;
+  background-color: rgba(22, 163, 74, 0.1);
+  padding: 2px 8px;
+  border-radius: 20px;
+  letter-spacing: 0.3px;
+}
+
+.chapter-card.done .chapter-icon {
+  background: linear-gradient(135deg, #16a34a, #15803d);
+}
+
+.chapter-card.done:hover {
+  border-color: #16a34a;
+  box-shadow: 0 6px 16px -8px rgba(22, 163, 74, 0.3);
+}
+
+/* ———————————————— 章节卡片 · 待补（🔜）样式 ———————————————— */
+
+.chapter-card.todo {
+  display: block;
+  padding: 22px 22px 20px;
+  border-radius: 12px;
+  background-color: var(--vp-c-bg-soft);
+  border: 1px dashed var(--vp-c-divider);
+  color: var(--vp-c-text-3);
+  opacity: 0.82;
+  cursor: default;
+  user-select: text;
+  position: relative;
+}
+
+.chapter-card.todo::before {
+  content: '🔜 待补';
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--vp-c-text-3);
+  background-color: rgba(127, 127, 127, 0.1);
+  padding: 2px 8px;
+  border-radius: 20px;
+  letter-spacing: 0.3px;
+}
+
+.chapter-card.todo .chapter-icon {
+  background: linear-gradient(135deg, #9ca3af, #6b7280);
+  width: auto;
+  min-width: 38px;
+  padding: 0 10px;
+  font-size: 0.8rem;
+  letter-spacing: 0.2px;
+}
+
+.chapter-card.todo h3 {
+  color: var(--vp-c-text-2);
+  font-weight: 500;
+}
+
+.chapter-card.todo p {
+  color: var(--vp-c-text-3);
+  font-style: normal;
+}
+
+/* ———————————————— 进度汇总卡片 ———————————————— */
+
+.progress-summary {
+  margin-top: 56px;
+}
+
+.progress-card {
+  background: linear-gradient(135deg, var(--vp-c-bg-soft), var(--vp-c-bg-soft));
+  border: 1px solid var(--vp-c-divider);
+  border-left: 5px solid var(--vp-c-brand-1);
+  border-radius: 14px;
+  padding: 24px 28px;
+  box-shadow: 0 4px 20px -10px rgba(79, 110, 247, 0.25);
+}
+
+.progress-card ul {
+  margin: 0 0 12px 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.progress-card li {
+  padding: 8px 12px;
+  background-color: var(--vp-c-bg-alt);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: var(--vp-c-text-2);
+  line-height: 1.6;
+  border: 1px solid var(--vp-c-divider);
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.progress-card li:hover {
+  border-color: var(--vp-c-brand-soft);
+  transform: translateY(-1px);
+}
+
+.progress-card li strong {
+  color: var(--vp-c-text-1);
+  font-weight: 600;
+  margin-right: 2px;
+}
+
+.progress-total {
+  margin: 10px 0 0 0;
+  padding-top: 14px;
+  border-top: 1px dashed var(--vp-c-divider);
+  font-size: 0.96rem;
+  color: var(--vp-c-text-2);
+  line-height: 1.8;
+}
+
+.progress-total strong {
+  font-size: 1.05rem;
+  color: var(--vp-c-brand-1);
+  font-weight: 700;
+  margin: 0 2px;
+}
+
+.progress-total a {
+  color: var(--vp-c-brand-1);
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px dashed var(--vp-c-brand-soft);
+}
+
+.progress-total a:hover {
+  border-bottom-color: var(--vp-c-brand-1);
+}
+
+/* ———————————————— 暗色模式适配 ———————————————— */
+
+.dark .chapter-card.done {
+  border-left-color: #22c55e;
+  background-color: rgba(34, 197, 94, 0.08);
+}
+
+.dark .chapter-card.done::before {
+  color: #4ade80;
+  background-color: rgba(34, 197, 94, 0.14);
+}
+
+.dark .chapter-card.done .chapter-icon {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+}
+
+.dark .chapter-card.todo {
+  background-color: var(--vp-c-bg-soft);
+  border-style: dashed;
+  opacity: 0.85;
+}
+
+.dark .chapter-card.todo::before {
+  background-color: rgba(148, 163, 184, 0.12);
+  color: var(--vp-c-text-3);
+}
+
+.dark .section-intro {
+  background-color: rgba(109, 139, 255, 0.12);
+  border-left-color: var(--vp-c-brand-1);
+}
+
+.dark .section-intro code {
+  background-color: rgba(109, 139, 255, 0.18);
+  color: var(--vp-c-brand-1);
+}
+
+.dark .progress-card {
+  box-shadow: 0 4px 20px -10px rgba(109, 139, 255, 0.35);
+  background: linear-gradient(135deg, rgba(109, 139, 255, 0.06), var(--vp-c-bg-soft));
+  border-left-color: var(--vp-c-brand-1);
+}
+
+.dark .progress-card li {
+  background-color: rgba(109, 139, 255, 0.06);
+  border-color: var(--vp-c-divider);
+}
+
+/* ———————————————— 移动端适配 ———————————————— */
+
+@media (max-width: 640px) {
+  .chapter-card.done::before,
+  .chapter-card.todo::before {
+    top: 10px;
+    right: 10px;
+    font-size: 0.68rem;
+    padding: 2px 7px;
+  }
+
+  .chapter-card.todo .chapter-icon {
+    font-size: 0.75rem;
+    padding: 0 8px;
+    min-width: 34px;
+    height: 34px;
+  }
+
+  .progress-card {
+    padding: 18px 18px;
+    border-left-width: 4px;
+  }
+
+  .progress-card ul {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .section-intro {
+    padding: 10px 14px;
+    font-size: 0.92rem;
+    margin: -4px 0 22px 0;
+  }
+}

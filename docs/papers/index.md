@@ -5,7 +5,10 @@ outline: [2, 3]
 
 # 论文笔记
 
-经典与前沿论文的精读笔记，注重**核心贡献、方法原理、关键公式推导、实验结论**四个维度的总结。
+经典与前沿论文的**精读笔记学习计划**，注重**核心贡献、方法原理、关键公式推导、实验结论**四个维度的总结。
+每篇完成的论文都会附带原文 arXiv 链接与一句话创新点速记。
+
+> 🎯 **当前进度**：15+ 篇规划中，已完成 1 篇（Attention Is All You Need），其余「待补」。
 
 ## 📄 按研究方向分类
 
@@ -13,7 +16,7 @@ outline: [2, 3]
 
 | 论文 | 年份 | 笔记 | 一句话总结 |
 |------|------|------|------------|
-| Attention Is All You Need | 2017 | [阅读笔记](/papers/transformer-paper) | 提出 Transformer，纯注意力机制替代 RNN/Cnn |
+| Attention Is All You Need | 2017 | [✅ 阅读笔记](/papers/transformer-paper) | 提出 Transformer，纯注意力机制替代 RNN/Cnn |
 | BERT: Pre-training of Deep Bidirectional Transformers | 2018 | （待补） | 双向掩码语言模型预训练范式 |
 | Language Models are Few-Shot Learners (GPT-3) | 2020 | （待补） | 175B 参数 + In-context Learning |
 | RoBERTa | 2019 | （待补） | BERT 工程优化版，训练更久数据更多 |
@@ -47,5 +50,5 @@ outline: [2, 3]
 如果发现笔记中有错误，或者希望某篇论文被加入阅读计划，欢迎通过 [关于页](/about) 中的联系方式与我交流。
 
 ::: tip 提示
-所有笔记仅代表个人理解，建议结合原论文交叉验证。原论文链接均附在笔记开头。
+所有笔记仅代表个人理解，建议结合原论文交叉验证。原论文链接均附在每篇笔记的开头。
 :::
