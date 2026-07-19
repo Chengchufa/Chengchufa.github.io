@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# 如需禁用索引特定路径，在这里加 Disallow
+# Disallow: /drafts/
+
+Sitemap: https://chengchufa.github.io/sitemap.xml
