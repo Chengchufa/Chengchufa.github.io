@@ -1,0 +1,39 @@
+# ============== 手搓代码合集 · 最小依赖集合 ==============
+# 安装命令：pip install -r requirements.txt
+# 有 GPU 的同学请按 https://pytorch.org/ 官网选择 CUDA 版本覆盖安装
+#   （例：pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121）
+
+# 数学 & 科学计算核心
+numpy>=1.24
+scipy>=1.10
+
+# 数据分析
+pandas>=2.0
+
+# 经典 ML（用于 GROUND TRUTH 对比手搓结果）
+scikit-learn>=1.3
+
+# 可视化
+matplotlib>=3.7
+seaborn>=0.12
+
+# 深度学习（默认 CPU 版，有 GPU 请覆盖安装 CUDA 版）
+torch>=2.0
+torchvision>=0.15
+
+# 大模型生态
+transformers>=4.30
+datasets>=2.14
+
+# 交互式开发
+jupyter>=1.0
+ipython>=8.14
+
+# 测试 & 质量
+pytest>=7.4
+pytest-cov>=4.1
+
+# 工具
+tqdm>=4.65
+rich>=13.0
+pyyaml>=6.0

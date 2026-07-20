@@ -5,6 +5,10 @@ outline: [2, 3]
 
 # 工具教程
 
+::: info 💻 代码目录
+工具教程对应的脚本、配置文件、示例工程放在 GitHub 仓库根目录 [`code/tutorials/`](https://github.com/Chengchufa/Chengchufa.github.io/tree/main/code/tutorials) 下。
+:::
+
 工欲善其事，必先利其器。本模块收集整理提升开发效率与学习效率的实用工具教程，涵盖 AI 编程助手、开发环境配置、常用命令等内容。
 
 ## 📖 教程列表

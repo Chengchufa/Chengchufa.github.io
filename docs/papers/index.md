@@ -10,6 +10,10 @@ outline: [2, 3]
 
 > 🎯 **当前进度**：15+ 篇规划中，已完成 1 篇（Attention Is All You Need），其余「待补」。
 
+::: info 💻 代码目录
+每篇论文对应的复现代码放在 GitHub 仓库根目录 [`code/papers/`](https://github.com/Chengchufa/Chengchufa.github.io/tree/main/code/papers) 下，按「序号-论文缩写」命名子目录（如 `01-attention-is-all-you-need/`），每篇至少包含核心架构最小复现 + 论文要点对照。
+:::
+
 ## 📄 按研究方向分类
 
 ### 自然语言处理 / 大模型

@@ -10,6 +10,10 @@ outline: [2, 3]
 
 > 🎯 **当前进度**：17 章规划中，已完成 1 章（SVM），其余「待补」—— 学习顺序建议按下方「基础篇 → 进阶篇 → 高级篇」推进。
 
+::: info 💻 代码目录
+本模块所有手搓代码放在 GitHub 仓库根目录 [`code/ml/`](https://github.com/Chengchufa/Chengchufa.github.io/tree/main/code/ml) 下，按章节分子目录，与笔记一一对应（每章含主实现 .py + pytest 测试 + 示例 notebook）。
+:::
+
 ## 📖 章节导航
 
 ### 基础篇

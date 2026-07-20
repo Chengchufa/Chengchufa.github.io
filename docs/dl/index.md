@@ -11,6 +11,10 @@ outline: [2, 3]
 
 > 🎯 **当前进度**：21 章规划中，已完成 1 章（Transformer-1 基础结构），其余「待补」。
 
+::: info 💻 代码目录
+本模块所有手搓代码放在 GitHub 仓库根目录 [`code/dl/`](https://github.com/Chengchufa/Chengchufa.github.io/tree/main/code/dl) 下，按章节分子目录，与笔记一一对应（PyTorch 原生实现，尽量少用 torch.nn 高层 API 以加深理解）。
+:::
+
 ## 📖 章节导航
 
 ### 基础神经网络

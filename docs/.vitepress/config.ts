@@ -73,6 +73,7 @@ export default defineConfig({
       { text: '论文笔记', link: '/papers/' },
       { text: '工具教程', link: '/tutorials/' },
       { text: '更新日志', link: '/release' },
+      { text: '💻 手搓代码', link: 'https://github.com/Chengchufa/Chengchufa.github.io/tree/main/code' },
       { text: '关于', link: '/about' }
     ],
 

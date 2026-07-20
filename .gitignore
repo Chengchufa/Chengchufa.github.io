@@ -22,3 +22,61 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+# Virtual environments
+.venv
+venv/
+ENV/
+env/
+# Testing & linting caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage/
+htmlcov/
+.tox/
+.nox/
+# Jupyter
+.ipynb_checkpoints
+# IPython
+profile_default/
+ipython_config.py
+# mypy / pytype
+.dmypy.json
+dmypy.json
+.pytype/
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+# Celery
+celerybeat-schedule
+celerybeat.pid
+# SageMath parsed files
+*.sage.py
+# Environ & secrets (extra)
+.ENV
+.env.rc
+

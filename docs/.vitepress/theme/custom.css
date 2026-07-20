@@ -557,3 +557,37 @@
     margin: -4px 0 22px 0;
   }
 }
+
+/* ========== 卡片底部链接（首页 done 卡片的💻对应代码） ========== */
+.card-footer-link {
+  margin: 10px 0 0 0;
+  padding-top: 8px;
+  border-top: 1px dashed rgba(0, 0, 0, 0.12);
+  font-size: 0.82rem;
+  color: #64748b;
+}
+.card-footer-link a {
+  color: #0ea5e9;
+  text-decoration: none;
+  font-weight: 500;
+}
+.card-footer-link a:hover {
+  text-decoration: underline;
+  color: #0284c7;
+}
+
+.chapter-card.todo .card-footer-link {
+  opacity: 0.7;
+  border-top-color: rgba(0, 0, 0, 0.08);
+}
+
+.dark .card-footer-link {
+  border-top-color: rgba(255, 255, 255, 0.12);
+  color: #94a3b8;
+}
+.dark .card-footer-link a {
+  color: #38bdf8;
+}
+.dark .card-footer-link a:hover {
+  color: #7dd3fc;
+}

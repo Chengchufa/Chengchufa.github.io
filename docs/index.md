@@ -62,7 +62,7 @@ features:
       </ul>
       <p><strong>联系方式：</strong></p>
       <ul>
-        <li>邮箱：<a href="mailto:chengchufa@users.noreply.github.com">chengchufa@users.noreply.github.com</a>（GitHub 转发，防爬虫）</li>
+        <li>邮箱：<a href="mailto:chengchufa2026@gmail.com">chengchufa2026@gmail.com</a>（学习交流 / 内推 / 合作欢迎来信，工作日 24h 内回复）</li>
         <li>GitHub：<a href="https://github.com/Chengchufa" target="_blank" rel="noopener">github.com/Chengchufa</a></li>
       </ul>
       <p>另有个人在 GitHub 上的一些项目：</p>
@@ -86,6 +86,7 @@ features:
           <div class="chapter-icon">01 ✅</div>
           <h3>线性代数基础</h3>
           <p>向量空间、矩阵运算、特征值分解、SVD 等核心概念</p>
+          <p class="card-footer-link">💻 <a href="https://github.com/Chengchufa/Chengchufa.github.io/tree/main/code/math/linear_algebra" target="_blank" rel="noopener" onclick="event.stopPropagation()">对应代码</a></p>
         </a>
         <div class="chapter-card todo" title="尚未开始，计划第一篇写">
           <div class="chapter-icon">02 🔜</div>
@@ -118,6 +119,7 @@ features:
           <div class="chapter-icon">01 ✅</div>
           <h3>支持向量机 SVM</h3>
           <p>最大间隔分类器、核技巧、软间隔与 SMO 算法推导</p>
+          <p class="card-footer-link">💻 <a href="https://github.com/Chengchufa/Chengchufa.github.io/tree/main/code/ml/svm" target="_blank" rel="noopener" onclick="event.stopPropagation()">对应代码</a></p>
         </a>
         <div class="chapter-card todo">
           <div class="chapter-icon">03 🔜</div>
@@ -170,6 +172,7 @@ features:
           <div class="chapter-icon">T1 ✅</div>
           <h3>Transformer 基础结构</h3>
           <p>Encoder-Decoder 框架、自注意力、Multi-Head Attention</p>
+          <p class="card-footer-link">💻 <a href="https://github.com/Chengchufa/Chengchufa.github.io/tree/main/code/dl/transformer-1" target="_blank" rel="noopener" onclick="event.stopPropagation()">对应代码</a></p>
         </a>
         <div class="chapter-card todo">
           <div class="chapter-icon">WV 🔜</div>
@@ -187,6 +190,7 @@ features:
           <div class="chapter-icon">P1 ✅</div>
           <h3>Attention Is All You Need</h3>
           <p>Transformer 开山之作，逐节精读与核心创新点总结</p>
+          <p class="card-footer-link">💻 <a href="https://github.com/Chengchufa/Chengchufa.github.io/tree/main/code/papers/01-attention-is-all-you-need" target="_blank" rel="noopener" onclick="event.stopPropagation()">对应代码</a></p>
         </a>
         <div class="chapter-card todo">
           <div class="chapter-icon">P2~ 🔜</div>
@@ -197,6 +201,7 @@ features:
           <div class="chapter-icon">T1 ✅</div>
           <h3>Claude Code 使用指南</h3>
           <p>AI 辅助编程工具的安装、常用命令与高阶技巧</p>
+          <p class="card-footer-link">💻 <a href="https://github.com/Chengchufa/Chengchufa.github.io/tree/main/code/tutorials/claude-code" target="_blank" rel="noopener" onclick="event.stopPropagation()">对应代码</a></p>
         </a>
         <div class="chapter-card todo">
           <div class="chapter-icon">T2~ 🔜</div>

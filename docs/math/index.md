@@ -11,6 +11,10 @@ outline: [2, 3]
 
 > 🎯 **当前进度**：4 章规划中，已完成 1 章，其余「待补」——开始学习后会按顺序逐篇追加。
 
+::: info 💻 代码目录
+本模块所有手搓代码放在 GitHub 仓库根目录 [`code/math/`](https://github.com/Chengchufa/Chengchufa.github.io/tree/main/code/math) 下，按章节分子目录，与笔记一一对应。
+:::
+
 ## 📖 章节导航
 
 | 序号 | 章节 | 核心内容 | 难度 |
