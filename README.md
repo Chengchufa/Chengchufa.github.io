@@ -2,7 +2,7 @@
 
 > 数学基础 · 机器学习 · 深度学习 · 论文笔记 · 工具教程
 >
-> 参考 [huaxiaozhuan.com](https://www.huaxiaozhuan.com/) 的目录风格，使用 [VitePress](https://vitepress.dev/) 构建的静态笔记站点。
+> 使用 [VitePress](https://vitepress.dev/) 构建的静态笔记站点。
 >
 > 线上演示：<https://chengchufa.github.io/>
 
@@ -186,6 +186,5 @@ git push -u origin main
 
 ## 🫶 致谢
 
-- 站点风格 & 目录结构参考 [huaxiaozhuan.com](https://www.huaxiaozhuan.com/)
 - 文档框架：[VitePress](https://vitepress.dev/)
 - 数学公式渲染：[MathJax 3](https://www.mathjax.org/) via `markdown-it-mathjax3`

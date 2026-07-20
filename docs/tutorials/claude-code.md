@@ -229,7 +229,7 @@ main();
 你是一名资深前端架构师，熟悉 VitePress + Vue 3 生态。
 请帮我重构我项目的首页 hero 区：
   - 现有文件 docs/index.md，用的 VitePress 默认 home layout
-  - 目标：做成 huaxiaozhuan.com 那种风格的首页 + 更新日志 + 卡片导航
+  - 目标：做成简洁实用的个人学习笔记风格的首页 + 更新日志 + 卡片导航
   - 约束：不能引入新的依赖；保留 VitePress 原生特性（搜索、导航栏）
   - 输出：先列设计思路（3-5 条要点），再给出具体文件 diff
 ```
